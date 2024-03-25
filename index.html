@@ -3,21 +3,23 @@
   <title>typewriter</title>
   <style>
     *{
-      background: white;
-	　　color: black;
-
+      background: black;
+	　　color: white;
       border: 0;
       outline: 0;
     }
     .textarea{
-     background: white;
-	color: black;
+      color: white;
       font-size: 35px;
       font-family: "American Typewriter","ヒラギノ丸ゴ ProN W4";
       padding: 10px;
-	font-weight: 410;
+      text-shadow: 0 0 10px #fff, 0 0 15px #fcfcfc, 0 0 17.5px #fcfcfc, 0 0 20px #fc00de;
+	     font-weight: 410;
+       animation: flash 1s infinite;
     }
-    @page { size:portrait; }
+    @page {
+       size:portrait;
+     }
 
   </style>
 </head>
