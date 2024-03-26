@@ -8,8 +8,7 @@
       outline: 0;
     }
     .textarea{
-      color: #3c9094;
-      border: 2px solid #3c9094;
+      border: 2px solid rgba(0,203,255,1);
       font-size: 22px;
       font-family: "American Typewriter","ヒラギノ丸ゴ ProN W4";
       padding: 10px;
@@ -17,6 +16,11 @@
        animation: flash 1s infinite;
        margin: 0 auto;
        width: 45%;
+       background: rgb(0,192,255);
+       background: linear-gradient(315deg, rgba(0,192,255,1) 25%, rgba(0,203,255,1) 35%, rgba(81,115,255,1) 50%, rgba(0,149,193,1) 65%, rgba(0,112,237,1) 75%);
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       background-attachment: fixed;
     }
     @page {
        size:portrait;
