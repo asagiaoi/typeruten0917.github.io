@@ -4,14 +4,14 @@
     body{
     font-size: 120%;
     min-height: 24em;
-display: table-cell;
-vertical-align: middle;
+    display: table-cell;
+    vertical-align: middle;
   }
   #txt{
     font-size: 120%;
-    font-family: "Zen Maru Gothic", serif;
-font-weight: 400;
-font-style: normal;
+    font-family: "M PLUS Rounded 1c", serif;
+    font-weight: 400;
+    font-style: normal;
     color: #000000;
     width: 24em;
     height: 24em;
@@ -37,7 +37,7 @@ font-style: normal;
   </style>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
   <script>
   window.addEventListener('load', function(){
   var obj1 = document.getElementById("selfile");
@@ -81,7 +81,6 @@ obj1.addEventListener('change', (evt) => {
       document.getElementById('txt').style.writingMode="";
     };
 
-
   </script>
 </head>
 <body>
@@ -92,6 +91,7 @@ obj1.addEventListener('change', (evt) => {
   <button class="button" onclick="save();">保存</button>
   <br />
     <textarea cols="25" rows="15" id="txt"></textarea>
+    <br />
     <button onclick="changeB()">横</button>
     <button onclick="changeA()">縦</button>
   </div>
